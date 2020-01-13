@@ -33,15 +33,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+  - An adaptive website has breakpoints at different screen and sizes, which were controlled by media quereies. A responsive website has the same breakpoints that adaptive websites have, but also use percentage-based values for height and width, along with constraints for these percent values.
 2. Describe what it means to be mobile first vs desktop first.
-
+  - Mobile first websites exhibit their mobile version of the website in the part of css that is not affected by media queries. The media queries or "breakpoints" will then contain min-width requirements that will introduce new CSS rules once the screen reaches a greater width. And same rules can be applied to the desktop first definition as well. 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+  - REM is a developer's unit of measure that is relative to the "root" font-size, which is the font-size as declared in the html tag in CSS. When the font-size here is set to 62.5%, the value for a REM is helpfully equivalent to 10px, allowing for easy and calculator-free conversions.
 4. How would you describe preprocessing to someone new to CSS?
-
+  - Preprocessors are a "building-tool" for CSS. You provide them with a file or group of files that are practically similar to your general index.CSS css file, but allow for usage of techniques that lead to a much shorter and easier-to-write styling sheet. The preprocessor then takes the file(s) you provide it, processes them, and generate a index.CSS file that is much longer line-by-line than what we had to type in. In Less, the techniques allowed involved usage of variables and mix-ins (similar to functions) in CSS to allow for lesser need to repeat input of identical CSS rules on several elements.
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-
+  - My favorite concept in preprocessing is the ability of the compiler to scan my code and let me know in gitbash if I have any errors in my code when I save the stylesheet. The most difficulty I have with preprocessing, at least with LESS, is the organizational "nesting" technique.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
